@@ -8,7 +8,7 @@ let randwords="";
 let words=['python','java','apple','javascript','programming','sparrow','express',
 'train','computer','monitor','sleep','cooking','crystal','andriod',
 'orange','kalyan','penguin' , ' painting','tiger','physics','raining',
-'textbook','winner','mobile','calculator','telivision','mobilenumber',
+'textbook','winner','mobile','calculator','television','mobilenumber',
 'laptop','products','teacup','planting','chemistry','mother','parrot'];
 const newwords=()=>
 {
