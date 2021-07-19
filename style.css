@@ -1,0 +1,119 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+
+
+
+header{
+    width:100%;
+    line-height:15vh;
+    background-color: #20bf6b;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    text-shadow:  0 1px 0 #efefef,
+                  0 2px 0 #efefef,
+                  0 3px 0 #efefef,
+                  0 4px 0 #efefef,
+                  0 30px 5px rgba(0,0,0,.1),
+
+}
+h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+input{
+    width:40%;
+    padding:15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border :5px black;
+    
+   background-color: #20bf6b;
+    color:black;
+    margin:2rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+section{
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  
+  background-image:url(https://media.istockphoto.com/photos/geometric-pattern-of-jigsaw-puzzle-picture-id946466164?k=6&m=946466164&s=612x612&w=0&h=iQbrtLCw_9zJEb0-qjgyGHWqaJjrh9whRu9RfGe0WZA=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.btn{
+background-color: green;
+border:5px solid green;
+color:white;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-radius: 10px;
+font-size: 20px;
+padding: 10px;
+cursor: pointer;
+transition-duration: 0.5s;
+transition-property: all;
+transition-timing-function: cubic-bezier(0.65,-0.25,0.25,1.95);
+}
+.btn:hover,btn:focus,btn:active{
+background-color:deeppink;
+letter-spacing: 0.125rem;
+}
+.gamearea
+{
+    width:50%;
+    height:400px;
+    padding:20px 0;
+
+    background-image:url(photo-1611517975989-c5882f8d2cf1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:  0 8px 6px -6px black;
+}
+.hidden
+{
+    display:none;
+}
+@media (max-width:480px) {
+    h1
+    {
+        font-size: 20px;
+    }
+
+    .gamearea
+{
+    width:80%;
+    height:400px;
+    padding:20px 0;
+}
+input{
+    width:80%;
+}
+section{
+    background-image:url(pux.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+}
